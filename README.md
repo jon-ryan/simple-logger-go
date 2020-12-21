@@ -11,13 +11,13 @@ Implementation of a basic logger using the built in log tool.
     // - Info
     logger := simplelogger.NewSimpleLogger(simplelogger.Info)
     logger.Error("This is an error")
-	logger.Warning("This is a warning")
+    logger.Warning("This is a warning")
     logger.Info("This is an information")
     
     // Set different logging levels
-	logger.SetLoggingLevel(simplelogger.None)
-	logger.SetLoggingLevel(simplelogger.Error)
-	logger.SetLoggingLevel(simplelogger.Warning)
-	logger.SetLoggingLevel(simplelogger.Info)
+    logger.SetLoggingLevel(simplelogger.None)
+    logger.SetLoggingLevel(simplelogger.Error)
+    logger.SetLoggingLevel(simplelogger.Warning)
+    logger.SetLoggingLevel(simplelogger.Info)
 ```
 
